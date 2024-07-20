@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #7570b3;
+}
+
+h3 {
+    color: #66c2a5;
+}
+
+.header {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+.site-title {
+    align-items: center;
+    margin: 0 3.4%;
+    float: left;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+    line-height: 150px;
+  }
+
+.site-description {
+    margin: 0 3.4%;
+    float: left;
+    font-family: "Oswald", sans-serif;
+    font-size: 12px;
+    line-height: 150px;
+  }
+  .clear {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  #access {
+    position: relative;
+    z-index: 3;
+    padding: 0 20px;
+    background: #111;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .1);
+  }
+  #access li {
+    position: relative;
+    float: left;
+    padding: 0;
+    padding-left: 0px;
+    margin: 0;
+    border: 0;
+  }
+  #access a {
+    display: block;
+    padding: 15px 24px;
+    color: #f0f0f0;
+    text-decoration: none;
+    -moz-transition: background-color .25s ease, margin .25s ease;
+    -webkit-transition: background-color .25s ease, margin .25s ease;
+    -o-transition: background-color .25s ease, margin .25s ease;
+    -ms-transition: background-color .25s ease, margin .25s ease;
+    transition: background-color .25s ease, margin .25s ease;
+  }
+  #container {
+    clear: both;
+    margin: 1.6%;
+  }
+  #column{
+    width: 100%;
+    float: left;
+  }
+  .entries {
+    position: relative;
+    height: 100vh;
+    /*grid-template-columns: repeat(auto-fill, 31%); /* Creates a responsive grid */
+    display: block;
+  }
+  .entry {
+    position: relative;
+    display: block;
+    width: 30%;
+    float: left;
+    margin: 1%;
+    padding: 0.5%;
+    box-shadow: 0 0 18px rgba(0, 0, 0, .4);
+  }
+
+  .publi-text {
+    width: 70%;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .publi {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 98%;
+    margin-top: 1%;
+    margin-left: 1%;
+    /*box-shadow: 0 0 18px rgba(0, 0, 0, .4);*/
+  }
+
+.wrapper {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    height: 250vh;
+    box-shadow: 0 0 18px rgba(0, 0, 0, .4);
+    background: #f8f8f8;
+  }
+
+.img-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.main-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex; /* This will align child elements (divs) in a row */
+    justify-content: space-between; /* This spaces the child elements evenly */
+}
+
+.side-by-side {
+    max-height: 400px;
+    width: 48%; /* Sets the width of each child element to 48% of the container's width */
+    background-color: lightgray; /* Just for better visibility */
+    box-sizing: border-box; /* Includes padding in the element's total width and height */
+}
+
+header h1, header p, section h2 {
+    margin: 0.5em 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
