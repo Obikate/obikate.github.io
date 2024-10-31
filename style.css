@@ -22,6 +22,7 @@ h3 {
 .site-title {
     align-items: center;
     margin: 0 3.4%;
+    margin-top: 60px;
     float: left;
     font-family: "Oswald", sans-serif;
     font-size: 32px;
@@ -42,6 +43,7 @@ h3 {
     visibility: hidden;
     width: 0;
     height: 0;
+    line-height: 0;
   }
 
   #access {
